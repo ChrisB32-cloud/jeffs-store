@@ -3,9 +3,10 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import NavBar from '@/components/NavBar/NavBar';
 
 const navigation = [
-  { name: 'Product', href: '#' },
+  { name: 'Product', href: '/products' },
   { name: 'Features', href: '#' },
   { name: 'Marketplace', href: '#' },
   { name: 'Company', href: '#' },
@@ -16,7 +17,8 @@ export default function Home() {
   return (
     <main className="">
       <div className="bg-white">
-        <header className="absolute inset-x-0 top-0 z-50">
+        <NavBar />
+        {/* <header className="absolute inset-x-0 top-0 z-50">
           <nav
             className="flex items-center justify-between p-6 lg:px-8"
             aria-label="Global"
@@ -107,7 +109,7 @@ export default function Home() {
               </div>
             </DialogPanel>
           </Dialog>
-        </header>
+        </header> */}
 
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div
