@@ -11,7 +11,10 @@
   "dependencies": {
     "@headlessui/react": "^2.0.4",
     "@heroicons/react": "^2.1.4",
+    "@shopify/graphql-client": "^1.0.0",
+    "@shopify/shopify-api": "^11.0.1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "graphql": "^16.9.0",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"

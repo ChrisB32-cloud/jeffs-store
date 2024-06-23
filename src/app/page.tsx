@@ -43,9 +43,9 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <main className="">
-      <div className="relative isolate overflow-hidden bg-white ">
+      <div className="relative isolate overflow-hidden h-screen bg-white ">
         <img
-          src="android-design.png"
+          src="org-android.png"
           alt=""
           className="absolute inset-0 -z-10 h-full py-28 w-auto m-auto object-cover object-right md:top-0 blur-xl"
         />
